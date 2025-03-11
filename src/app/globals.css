@@ -24,3 +24,18 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer base {
+  @font-face {
+    font-family: "DarkSouls";
+    src: url("/fonts/OptimusPrinceps.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+.font-darksouls {
+  font-family: "DarkSouls", serif;
+  letter-spacing: 0.05em;
+}
